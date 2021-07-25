@@ -1,0 +1,11 @@
+image: maven:3.3.9-jdk-8
+
+before_script:
+  - |
+    cd /builds/abidkidwai786/my-project-4
+    echo 'export LT_USERNAME=abidk' >> ~/.bashrc
+    echo 'export LT_ACCESS_KEY=v9Iv0xTnw4icSAzINW13he2EmdFbmsa3qNCpSIJSBhIoUHHyOn' >> ~/.bashrc
+      
+job:
+  script:
+    mvn test -Dsuite=single.xml
