@@ -54,7 +54,7 @@ public class TestNGTodo1 {
         driver.findElement(By.name("li2")).click();
 
         System.out.println("Checking Box");
-        driver.findElement(By.name("li9")).click();
+        driver.findElement(By.name("li3")).click();
 
         System.out.println("Checking Another Box");
         driver.findElement(By.name("li4")).click();
@@ -79,7 +79,6 @@ public class TestNGTodo1 {
 
         System.out.println("Checking Another Box");
         driver.findElement(By.name("li8")).click();
-        Thread.sleep(300);
 
         System.out.println("Entering Text");
         driver.findElement(By.id("sampletodotext")).sendKeys("Get Taste of Lambda and Stick to It");
