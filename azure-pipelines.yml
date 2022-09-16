@@ -9,9 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-variables:
-  LT_USERNAME: 'abidk'
-  LT_ACCESS_KEY: 'v9Iv0xTnw4icSAzINW13he2EmdFbmsa3qNCpSIJSBhIoUHHyOn'
 
 steps:
 - task: Maven@3
